@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-example",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wixc3/bootstrap-boards": "^0.2.0",
+    "bootstrap": "^5.2.1",
+    "classnames": "^2.3.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-svgr": "^2.4.0"
+  },
+  "devDependencies": {
+    "@codux-boards/react-blueprint": "^1.0.0",
+    "@codux-boards/react-bootstrap": "^0.3.4",
+    "@types/react": "^17.0.52",
+    "@types/react-dom": "^17.0.18",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@wixc3/react-board": "^2.3.0",
+    "sass": "^1.60.0",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1"
+  }
+}

@@ -1,0 +1,100 @@
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  width: 880px;
+}
+
+.card {
+  flex: calc(33% - 42px);
+  height: 400px;
+}
+
+.content {
+  padding: 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badges {
+  margin: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+  & > span {
+    --bs-badge-font-weight: 300;
+    font-weight: var(--bs-badge-font-weight);
+  }
+}
+
+.carousel {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.text-width {
+  width: 500px;
+}
+.font-style {
+  font-family: futura;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.text-layout {
+  margin-top: 25px;
+}
+
+.footer {
+  border-radius: 0 0 8px 8px;
+  background-color: #222222;
+  margin: 5px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #ffffff;
+  width: 100%;
+  font-family: futura;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.footer-titles {
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+.join-our {
+  margin: 10px;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+.input {
+  width: 200px;
+}
+.copyrights {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  min-height: 100px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
